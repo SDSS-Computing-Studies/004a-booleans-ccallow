@@ -18,7 +18,7 @@ if b in user:
   pw=str(pw)
   a="12345password"
   a=str(a)
-  if pw is a:
+  if pw == a:
     print("Access granted")
 
 else:
