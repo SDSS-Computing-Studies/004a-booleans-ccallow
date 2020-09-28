@@ -15,3 +15,21 @@
 # Outputs:
 # - "the equation can be factored"
 # - "the equation can not be factored"
+import math
+
+print("=============================")
+a=input("A: ")
+a=float(a)
+b=input("B: ")
+b=float(b)
+c=input("C: ")
+c=float(c)
+x = (b**2)- (4 *a*c)
+3
+x=float(x)
+
+print("=============================\n\n\n")
+if int(x) == math.sqrt(x):
+    print("the equation can be factored")
+    print("the equation can not be factored")
+print("=============================")
