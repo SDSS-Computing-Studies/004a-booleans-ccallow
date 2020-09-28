@@ -12,3 +12,11 @@
 # - "that is a right triangle"
 # - "that is an acute triangle"
 # - "that is an obtuse triangle"
+print("=============================")
+a=input("A: ")
+a=float(a)
+b=input("B: ")
+b=float(b)
+c=input("C: ")
+c=float(c)
+print("=============================")
