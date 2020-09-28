@@ -31,5 +31,6 @@ x=float(x)
 print("=============================\n\n\n")
 if int(x) == math.sqrt(x):
     print("the equation can be factored")
+else:
     print("the equation can not be factored")
 print("=============================")
