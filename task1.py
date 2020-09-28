@@ -11,3 +11,15 @@
 # "The number is larger than 100"
 # "The number is smaller than 100"
 # "The number is 100"
+print("=============================")
+a=input("Choose a number: ")
+print("=============================\n\n\n")
+a=float(a)
+print("=============================")
+if a>100:
+  print("The number is larger than 100")
+elif a<100:
+  print("The number is smaller than 100")
+else:
+  print("The number is 100")
+print("=============================\n\n\n")

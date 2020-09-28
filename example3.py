@@ -41,9 +41,9 @@ bobLikesFootball = False
 if bobLikesHockey:
   print("Bob likes hockey")
 elif bobLikesSoccer:
-  print("Bob does not like hockey, but likes Soccer"
+  print("Bob does not like hockey, but likes Soccer")
 elif bobLikesFootball:
-  print("Bob does not like hockey or soccer, but likes football"
+  print("Bob does not like hockey or soccer, but likes football")
 else:
   print("Bob doesn't like any of the conditions that we checked")
 print("=============================\n\n\n")
