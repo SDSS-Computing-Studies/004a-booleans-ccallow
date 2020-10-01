@@ -21,9 +21,14 @@ b=float(b)
 b1=str(b)
 c=input("C: ")
 c=float(c)
-c1+str(c)
+c1=str(c)
 print("=============================")
-exp = (a**2) + (b**2)
-exp = float(exp)
-if exp = (c**2)
-    print(yay)
+if a>b>c or a>c>b:
+    if (c**2)+(b**2)==(a**2):
+        print("that is a right triangle")
+if b>c>a or b>a>c:
+    if (a**2)+(c**2)==(b**2):
+        print("that is a right triangle")
+if c>a>b or c>b>a:
+    if (a**2)+(b**2)==(c**2):
+        print("that is a right triangle")
