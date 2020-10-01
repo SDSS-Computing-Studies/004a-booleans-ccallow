@@ -24,7 +24,7 @@ c=float(c)
 c1=str(c)
 print("=============================")
 if a>b>c or a>c>b:
-    if (c**2.0)+(b**2.0)==(a**2.0):
+    if (c**2.0)+(b**2.0)==(a**2.0) or 1.02(a**2.0):
         print("that is a right triangle")
     elif (c**2.0)+(b**2.0)< ((a**2.0) or 1.02(a**2.0)):
         print("that is an obtuse triangle")
@@ -32,7 +32,7 @@ if a>b>c or a>c>b:
         print("that is an acute triangle")
 
 if b>c>a or b>a>c:
-    if (a**2.0)+(c**2.0)==(b**2.0):
+    if (a**2.0)+(c**2.0)==(b**2.0)or 1.02(b**2.0):
         print("that is a right triangle")
     elif (c**2.0)+(a**2.0)<((b**2.0) or 1.02(b**2.0)):
         print("that is an obtuse triangle")
@@ -40,7 +40,7 @@ if b>c>a or b>a>c:
         print("that is an acute triangle")
 
 if c>a>b or c>b>a:
-    if (a**2.0)+(b**2.0)==(c**2.0):
+    if (a**2.0)+(b**2.0)==(c**2.0)or 1.02(c**2.0):
         print("that is a right triangle")
     elif (b**2.0)+(a**2.0)<((c**2.0) or 1.02(c**2.0)):
         print("that is an obtuse triangle")
