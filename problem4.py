@@ -27,26 +27,26 @@ if a>b>c or a>c>b:
     expected = (c**2.0)+(b**2.0)
     if expected ==(expected>0.98*(a**2.0) and expected < 1.02*(a**2.0)):
         print("that is a right triangle")
-    elif expected < (expected>0.98*(a**2.0) and expected < 1.02*(a**2.0)):
+    elif expected < 1.02*(a**2.0):
         print("that is an obtuse triangle")
-    elif expected >(expected>0.98*(a**2.0) and expected < 1.02*(a**2.0)):
+    elif expected > 0.98*(a**2.0):
         print("that is an acute triangle")
 
 if b>c>a or b>a>c:
     expected2 = (a**2.0)+(c**2.0)
     if expected2 ==(expected2 > 0.98*(b**2.0) and expected2 < 1.02*(b**2.0)):
         print("that is a right triangle")
-    elif expected2 <(expected2 > 0.98*(b**2.0) and expected2 < 1.02*(b**2.0)):
+    elif expected2 < 1.02*(b**2.0):
         print("that is an obtuse triangle")
-    elif expected2 >(expected2 > 0.98*(b**2.0) and expected2 < 1.02*(b**2.0)):
+    elif expected2 > 0.98*(b**2.0):
         print("that is an acute triangle")
 
 if c>a>b or c>b>a:
     expect = (b**2.0)+(a**2.0)
-    if expect ==(expect > 0.98*(c**2.0) and expect< 1.02*(c**2.0)):
+    if expect > 0.98*(c**2.0) and expect< 1.02*(c**2.0):
         print("that is a right triangle")
-    elif expect<(expect > 0.98*(c**2.0) and expect< 1.02*(c**2.0)):
+    elif expect<1.02*(c**2.0):
         print("that is an obtuse triangle")
-    elif expect> (expect > 0.98*(c**2.0) and expect< 1.02*(c**2.0)):
+    elif expect> 0.98*(c**2.0):
         print("that is an acute triangle")
     
