@@ -42,11 +42,11 @@ if b>c>a or b>a>c:
         print("that is an acute triangle")
 
 if c>a>b or c>b>a:
-    expected3 = (b**2.0)+(a**2.0)
-    if expected3 ==(expected > 0.98*(c**2.0) and expected< 1.02*(c**2.0)):
+    expect = (b**2.0)+(a**2.0)
+    if expect ==(expect > 0.98*(c**2.0) and expect< 1.02*(c**2.0)):
         print("that is a right triangle")
-    elif expected3 <(expected > 0.98*(c**2.0) and expected< 1.02*(c**2.0)):
+    elif expect<(expect > 0.98*(c**2.0) and expect< 1.02*(c**2.0)):
         print("that is an obtuse triangle")
-    elif expected3> (expected > 0.98*(c**2.0) and expected< 1.02*(c**2.0)):
+    elif expect> (expect > 0.98*(c**2.0) and expect< 1.02*(c**2.0)):
         print("that is an acute triangle")
     
